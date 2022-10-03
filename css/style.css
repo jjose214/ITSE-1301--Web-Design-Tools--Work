@@ -1,0 +1,69 @@
+header {
+    background-color: white;
+    color: rgb(63, 39, 39);
+    font-weight: bold;
+
+}
+nav {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+main {
+    background-color: black;
+    color: blanchedalmond;
+}
+section {
+    background-color: black;
+    color: blanchedalmond;
+}
+footer {
+    background-color: black;
+    color: blanchedalmond;
+}
+h1 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 40px;
+    color: rgb(50, 50, 50);
+}
+h3 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 35px;
+    color: rgb(80, 79, 79);
+}
+h4 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    color: rgb(134, 134, 134);
+}
+h5 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+}
+h6 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+}
+p {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-size: 15px;
+    color: rgb(155, 153, 153);
+}
+.second {
+    color:rgb(255, 217, 159);
+}
+.first {
+    color: rgb(245, 234, 218);
+}
+
+
+
+
+
+

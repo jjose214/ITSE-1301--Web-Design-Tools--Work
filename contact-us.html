@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            a:link {color:#3c0000fa;} /* unvisited link */
+            a:visited {color:#8e0000;} /* visited link */
+            a:hover {color:#004362;} /* mouse over link */
+        </style>
+        <style>
+            table, th, td {
+                background-color: antiquewhite;
+                border: 3px solid;
+                border-color: rgb(85, 129, 38);
+                color: black;
+            }
+        </style>
+        <title>Kanye West</title> 
+    </head>
+
+    <body> 
+        <header>
+            <h1>C O N T A C T   U S</h1>
+            <nav>
+                <a href="index.html"><strong> Home </strong></a> • <a href="faq.html"><strong> FAQs </strong></a> • <a href="gallery.html"><strong> Gallery </strong></a> • <a href="contact-us.html"><strong> Contact Us </strong></a>
+            </nav>
+        </header>
+
+        <main>
+            <fieldset>
+                <legend><strong>Please fill in the information below.</strong></legend>
+                <h2>Personal Information</h2>
+                <form id="emailForm" method="post" action="mailto:e3464775@student.dcccd.edu">
+                    <p>
+                        <label title="Enter your first and last name:">Name <input type="text" name="Name" placeholder="Name"></label>
+                    </p>
+                    <p>
+                        <label title="Enter your email address:">Email <input type="text" name="Email" placeholder="Email"></label>
+                    </p>
+                    <p>
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
+                    </p>
+                    <p>
+                        <label title="Select what region you are sending this message from">Region</label>
+                        <select name="region">
+                            <option value="">Select Your Region</option>
+                            <option value="1">Africa</option>
+                            <option value="2">The Americas</option>
+                            <option value="3">Asia</option>
+                            <option value="4">Europe</option>
+                            <option value="5">Oceania</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label title="Select to suscribe to Kanye West's newsletter"><input type="checkbox" name="suscribe-to-newsletter"> Suscribe to Kanye West's Newsletter</label>
+                    </p>
+                    <h3>Message</h3>
+                    <p>
+                        <label title="Select if you have a question you want to ask Kanye">Question <input type="radio" name="request"></label>
+                        <br>
+                        <label title="Select if you have a comment for Kanye">Comment <input type="radio" name="request"></label>
+                    </p>
+                    <p>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message"></textarea>
+                    </p>
+                    <input type="reset" value="Clear Form">
+                    <input type="submit" name="submit" value="Send Mail">
+                </form>
+            </fieldset>
+        </main>
+        
+        <table >
+            <caption><strong>Kanye West Past Shows</strong></caption>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th scope="col" abbr="Column 1" id="col1">City</th>
+                    <th scope="col" abbr="Column 2" id="col2">State</th>
+                    <th scope="col" abbr="Column 3" id="col3">Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">July 22, 2021</th>
+                    <td headers="col1">Atlanta</td>
+                    <td headers="col2">Georgia</td>
+                    <td headers="col3">Mercedes-Benz Stadium</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">August 5, 2021</th>
+                    <td headers="col1">Atlanta</td>
+                    <td headers="col2">Georgia</td>
+                    <td headers="col3">Mercedes-Benz Stadium</td>
+                </tr>
+                <tr>
+                    <th scope="row">August 26, 2021</th>
+                    <td headers="col1">Chicago</td>
+                    <td headers="col2">Illinois</td>
+                    <td headers="col3">Soldier Feild</td>
+                </tr>
+            </tbody>
+        </table>
