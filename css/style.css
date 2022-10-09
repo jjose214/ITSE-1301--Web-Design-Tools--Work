@@ -112,7 +112,9 @@ a:visited {
 a:hover {
     color:#004362;
 } /* mouse over link */
-
+hr.new {
+    border-top: 43px solid black;
+}
 
 
 
