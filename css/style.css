@@ -28,27 +28,27 @@ h1 {
 h2 {
     font-family: Palatino, URW Palladio L, serif;
     font-size: 40px;
-    color: rgb(50, 50, 50);
+    color: rgb(233, 233, 233);
 }
 h3 {
     font-family: Palatino, URW Palladio L, serif;
     font-size: 35px;
-    color: rgb(80, 79, 79);
+    color: rgb(205, 205, 205);
 }
 h4 {
     font-family: Palatino, URW Palladio L, serif;
     font-size: 30px;
-    color: rgb(134, 134, 134);
+    color: rgb(165, 165, 165);
 }
 h5 {
     font-family: Palatino, URW Palladio L, serif;
     font-size: 25px;
-    color: rgb(170, 170, 170);
+    color: rgb(141, 141, 141);
 }
 h6 {
     font-family: Palatino, URW Palladio L, serif;
     font-size: 20px;
-    color: rgb(189, 189, 189);
+    color: rgb(122, 122, 122);
 }
 p {
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
@@ -61,6 +61,57 @@ p {
 .first {
     color: rgb(245, 234, 218);
 }
+#photoinfo1 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(23, 135, 255, 0.674);
+}
+#photoinfo2 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(41, 195, 82, 0.674);
+}
+#photoinfo3 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(255, 255, 38, 0.674);
+}
+#photoinfo4 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(255, 33, 33, 0.674);
+}
+#photoinfo5 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(170, 137, 108, 0.674);
+}
+#photoinfo6 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(251, 249, 249, 0.701);
+}
+.question {
+    background-color: rgba(255, 180, 123, 0.234);
+}
+.answer {
+    background-color: rgba(129, 103, 79, 0.3);
+}
+table, th, td {
+    background-color: antiquewhite;
+    border: 3px solid;
+    border-color: rgb(85, 129, 38);
+    color: black;
+}
+a:link {
+    color:#8a0000fa;
+} /* unvisited link */
+a:visited {
+    color:#e20000;
+} /* visited link */
+a:hover {
+    color:#004362;
+} /* mouse over link */
 
 
 
