@@ -1,0 +1,30 @@
+.w3-theme-l5 {color:#000 !important; background-color:#faf4f0 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#eddacc !important}
+.w3-theme-l3 {color:#000 !important; background-color:#dbb49a !important}
+.w3-theme-l2 {color:#fff !important; background-color:#ca8f67 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#af6b3e !important}
+.w3-theme-d1 {color:#fff !important; background-color:#704427 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#643d23 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#57351f !important}
+.w3-theme-d4 {color:#fff !important; background-color:#4b2e1a !important}
+.w3-theme-d5 {color:#fff !important; background-color:#3e2616 !important}
+.w3-theme-light {color:#000 !important; background-color:#faf4f0 !important}
+.w3-theme-dark {color:#fff !important; background-color:#3e2616 !important}
+.w3-theme-action {color:#fff !important; background-color:#3e2616 !important}
+.w3-theme {color:#fff !important; background-color:#7d4c2c !important}
+.w3-text-theme {color:#7d4c2c !important}
+.w3-border-theme {border-color:#7d4c2c !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#7d4c2c !important}
+.w3-hover-text-theme:hover {color:#7d4c2c !important}
+.w3-hover-border-theme:hover {border-color:#7d4c2c !important}
+.background {background-color: rgba(255, 234, 200, 0.769);}
+hr.new {
+    border-top: 30px solid #3e2616;
+    min-width: 100%;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+  }
+.title {
+    color: #3e2616;
+}

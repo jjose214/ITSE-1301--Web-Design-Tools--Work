@@ -16,41 +16,44 @@
         <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
         <link rel="stylesheet" href="css/nav-menu.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/color-scheme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Kanye West</title> 
     </head>
 
-    <body> 
+    <body class="background"> 
         <nav class="topnav">
             <a class="active" href="index.html">Home</a>
             <a href="faq.html">FAQs</a>
             <a href="gallery.html">Gallery</a>
             <a href="contact-us.html">Contact Us</a>
         </nav>
-        <header>
+        <header class="w3-container">
             <hr class="new">
-            <h1>C O N T A C T   U S</h1>
+            <h1 class="w3-theme-d5 w3-wide w3-center">C O N T A C T   U S</h1>
         </header>
 
         <main>
             <fieldset>
-                <legend><strong>Please fill in the information below.</strong></legend>
-                <h2>Personal Information</h2>
-                <form id="emailForm" method="post" action="mailto:e3464775@student.dcccd.edu">
-                    <p>
-                        <label title="Enter your first and last name:">Name <input type="text" name="Name" placeholder="Name"></label>
+                <legend style="color: #643d23;"><strong>Please fill in the information below.</strong></legend>
+                <h2 class="title"><strong>Personal Information</strong></h2>
+                <form class="w3-container" id="emailForm" method="post" action="mailto:e3464775@student.dcccd.edu">
+                    <p style="color:#7d4c2c;"><i class="w3-large fa fa-user"></i>
+                        <label title="Enter your first and last name:">Name <input class="w3-input" type="text" name="Name" placeholder="Name"></label>
                     </p>
-                    <p>
-                        <label title="Enter your email address:">Email <input type="text" name="Email" placeholder="Email"></label>
+                    <p style="color:#7d4c2c;"><i class="w3-large fa fa-envelope-o"></i>
+                        <label title="Enter your email address:">Email <input class="w3-input" type="text" name="Email" placeholder="Email"></label>
                     </p>
-                    <p>
+                    <p style="color:#7d4c2c;"><i class="w3-large fa fa-phone"></i>
                         <label for="phone">Phone number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
+                        <input  class="w3-input" type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
                     </p>
-                    <p>
+                    <p style="color:#7d4c2c;"><i class="w3-large fa fa-globe"></i>
                         <label title="Select what region you are sending this message from">Region</label>
-                        <select name="region">
+                        <select class="w3-select" name="region">
                             <option value="">Select Your Region</option>
                             <option value="1">Africa</option>
                             <option value="2">The Americas</option>
@@ -59,54 +62,56 @@
                             <option value="5">Oceania</option>
                         </select>
                     </p>
-                    <p>
+                    <p style="color:#7d4c2c;">
                         <label title="Select to suscribe to Kanye West's newsletter"><input type="checkbox" name="suscribe-to-newsletter"> Suscribe to Kanye West's Newsletter</label>
                     </p>
-                    <h3>Message</h3>
-                    <p>
+                    <h3 class="title"><strong>Message</strong></h3>
+                    <p style="color:#7d4c2c;">
                         <label title="Select if you have a question you want to ask Kanye">Question <input type="radio" name="request"></label>
                         <br>
                         <label title="Select if you have a comment for Kanye">Comment <input type="radio" name="request"></label>
                     </p>
-                    <p>
+                    <p style="color:#7d4c2c;"><i class="w3-large fa fa-file"></i>
                         <label for="message">Message</label><br>
                         <textarea id="message" name="message"></textarea>
                     </p>
-                    <input type="reset" value="Clear Form">
-                    <input type="submit" name="submit" value="Send Mail">
+                    <button type="reset" value="Clear Form" class="w3-button w3-round w3-white w3-border w3-border-brown" style="color: #4b2e1a;">Clear Form</button>
+                    <button type="submit" value="Send Mail" class="w3-button w3-round w3-white w3-border w3-border-brown" style="color: #4b2e1a;">Send Mail</button>
+                    
                 </form>
             </fieldset>
         </main>
         
-        <table>
-            <caption><strong>Kanye West Past Shows</strong></caption>
+        <table class="w3-table-all">
+            <caption class="w3-theme-d5"><strong>Kanye West Past Shows</strong></caption>
             <thead>
                 <tr>
-                    <th>Date</th>
-                    <th scope="col" abbr="Column 1" id="col1">City</th>
-                    <th scope="col" abbr="Column 2" id="col2">State</th>
-                    <th scope="col" abbr="Column 3" id="col3">Venue</th>
+                    <th class="w3-theme-d4">Date</th>
+                    <th scope="col" abbr="Column 1" id="col1" class="w3-theme-d4">City</th>
+                    <th scope="col" abbr="Column 2" id="col2" class="w3-theme-d4">State</th>
+                    <th scope="col" abbr="Column 3" id="col3" class="w3-theme-d4">Venue</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">July 22, 2021</th>
-                    <td headers="col1">Atlanta</td>
-                    <td headers="col2">Georgia</td>
-                    <td headers="col3">Mercedes-Benz Stadium</td>
+                    <th scope="row" class="w3-theme">July 22, 2021</th>
+                    <td headers="col1" class="w3-theme-d1">Atlanta</td>
+                    <td headers="col2" class="w3-theme-d2">Georgia</td>
+                    <td headers="col3" class="w3-theme-d3">Mercedes-Benz Stadium</td>
 
                 </tr>
                 <tr>
-                    <th scope="row">August 5, 2021</th>
-                    <td headers="col1">Atlanta</td>
-                    <td headers="col2">Georgia</td>
-                    <td headers="col3">Mercedes-Benz Stadium</td>
+                    <th scope="row" class="w3-theme">August 5, 2021</th>
+                    <td headers="col1" class="w3-theme-d1">Atlanta</td>
+                    <td headers="col2" class="w3-theme-d2">Georgia</td>
+                    <td headers="col3" class="w3-theme-d3">Mercedes-Benz Stadium</td>
                 </tr>
                 <tr>
-                    <th scope="row">August 26, 2021</th>
-                    <td headers="col1">Chicago</td>
-                    <td headers="col2">Illinois</td>
-                    <td headers="col3">Soldier Feild</td>
+                    <th scope="row" class="w3-theme">August 26, 2021</th>
+                    <td headers="col1" class="w3-theme-d1">Chicago</td>
+                    <td headers="col2" class="w3-theme-d2">Illinois</td>
+                    <td headers="col3" class="w3-theme-d3">Soldier Feild</td>
                 </tr>
             </tbody>
         </table>
+    </body>

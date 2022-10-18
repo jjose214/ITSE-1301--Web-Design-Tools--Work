@@ -22,17 +22,17 @@ section {
 }
 article {
     float: left;
-    border: solid thick gray;
+    border: solid thick #3e2616;
     border-radius: 7px;
     width: 42%;
     padding: 1%;
     margin: 2%;
-    background-color: rgb(0, 0, 0);
+    background-color: #eddacc;
 }
 article h3 {
     text-align: center;
     padding: 15px;
-    background-color: rgba(129, 95, 47, 0.762);
+    background-color: #dbb49a;
     border-radius: 5px;
 }
 article > p {
