@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/nav-menu.css">
+<link rel="stylesheet" href="css/color-scheme.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* Create a Parallax Effect */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('images/tmpc.jpg');
+  min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+</style>
+</head>
+<body class="background">
+
+<!-- Navbar (sit on top) -->
+<nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQs</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact-us.html">Contact Us</a>
+    <a class="active" href="about-us.html">About Us</a>
+</nav>
+<header class="w3-container">
+    <hr class="new">
+    <h1 class="w3-theme-d5 w3-wide w3-center">A B O U T U S</h1>
+</header>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Home</a>
+    <a href="faq.html" class="w3-bar-item w3-button" onclick="toggleFunction()">FAQs</a>
+    <a href="gallery.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Gallery</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact Us</a>
+    <a href="about-us.html" class="w3-bar-item w3-button" onclick="toggleFunction()">About Us</a>
+  </div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center" style="color: #4b2e1a;">ABOUT ME</h3>
+  <p class="w3-center" style="color: #57351f;"><em>I love learning the steps it takes to make a website look excellent</em></p>
+  <p style="color: #643d23;">My name is Jose Alan Juarez Trejo and I am 20 years old. I graduated high school in 2020 and enrolled in a university to study marketing. I quickly realized I was not ready to be in college, so I took an academic break. After working a couple of different jobs and meeting many new people, I met a friend who introduced me to the world of computer science. After I learned the basics of programming, I realized that I wanted to enroll back in school. I started taking classes in the summer of 2022 and plan on getting my Associates of Applied Science in Software Development. I want to thank Professor Herd for teaching me how to build a website, for being very helpful and understanding, and overall being a great professor. It has been a pleasure to have you as my professor.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p style="color: #643d23;" ><b><i class="fa fa-heart w3-margin-right"></i>My girlfriend and I</b></p><br>
+      <img src="images/newyrs.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p style="color: #704427;">Even though I am only halfway through the Web Desing Tools class, I have already learned so much about HTML5, FTP's, CSS, etc. The most important skill I have learned so far is how to use FileZilla, because without FileZilla my website would be just a bunch of files. Knowing how to organize your files and folders is very important in order for your website to look the way you want it to. One of my favorite skills I have learned is how to add images because of how simple it is. I enjoyed adding style, since it made my website more distinctive and personal. I could choose whatever color scheme, font, text size, etc. The possibilities are truly endless with CSS. I understand now why it is important to keep HTML and CSS apart, because it can get messy if they are both on the same page. Style sheets are so convinient and efficient, because any changes you make on the style sheet will apply to whatever pages have it linked. Being able to float elements adds a more clean look to the website and makes the contents of the box easier to digest since they are isolated. Despite the fact that implementing W3.CSS Framework was very time consuming, I still enjoyed it because it allowed me to be as creative as I wanted to be. Once I applied W3.CSS, I definitely felt more accomplished about my website because it finally looked like how I envisioned it at the start of the class, before I even knew what HTML was. </p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16" style="color: #af6b3e ;">Places I Enjoy Visitng:</p>
+  <p class="w3-wide w3-center" style="color: #af6b3e ;"><i class="fa fa-star-o" aria-hidden="true"></i>Guanajuato, GTO, MX</p>
+  <img src="images/gto.jpg" class="w3-round w3-image center" alt="Photo of GTO" width="300" height="300">
+  <p class="w3-wide w3-center" style="color: #af6b3e ;"><i class="fa fa-sun-o" aria-hidden="true"></i>Miami, FL, US</p>
+  <img src="images/mia.jpg" class="w3-round w3-image center" alt="Photo of MIA" width="300" height="300">
+  <p class="w3-wide w3-center" style="color: #af6b3e ;"><i class="fa fa-home" aria-hidden="true"></i>Tampico, GTO, MX</p>
+  <img src="images/cancha.jpg" class="w3-round w3-image center" alt="Photo of TMP" width="300" height="300">
+</div>
+
+<div class="w3-row w3-center w3-theme-d2 w3-padding-12">
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">5</span><br>
+    Classes Completed
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">18</span><br>
+    Credits
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">4.0</span><br>
+    GPA
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-theme-d5 w3-padding-64">
+  <a href="#home" class="w3-button w3-theme-d1"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
